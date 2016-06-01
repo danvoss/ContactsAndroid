@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         contacts = new ArrayAdapter<Contact>(this, android.R.layout.simple_list_item_1);
         list.setAdapter(contacts);
+
         addButton.setOnClickListener(this);
         list.setOnItemLongClickListener(this);
 
