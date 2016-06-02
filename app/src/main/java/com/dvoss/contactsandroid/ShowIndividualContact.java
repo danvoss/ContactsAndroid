@@ -7,7 +7,9 @@ import android.os.Bundle;
 public class ShowIndividualContact extends AppCompatActivity {
 
     Intent intent = getIntent();
-    Bundle extras = getIntent().getExtras();
+    String display = intent.getStringExtra("display");
+
+    //Bundle extras = getIntent().getExtras();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
