@@ -17,7 +17,8 @@
         <ListView
             android:layout_width="wrap_content"
             android:layout_height="437dp"
-            android:id="@+id/listView" />
+            android:id="@+id/listView"
+            android:longClickable="false" />
 
         <LinearLayout
             android:orientation="horizontal"
